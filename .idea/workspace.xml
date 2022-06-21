@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Citas/CitaAgendada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Citas/CitaDisponible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Citas/CitaMedica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorCita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Facade/CLITest.java" afterDir="false" />
+    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dataUsuarios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +40,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/Public/Music/Proyectos_IntelliJ/Calculadora_GR4"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,6 +52,74 @@
       <recent name="ec.edu.epn.Facade" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name=" [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="false" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map>
+                <entry key="archetypeArtifactId" value="bamboo-plugin-archetype" />
+                <entry key="archetypeGroupId" value="com.atlassian.maven.archetypes" />
+                <entry key="archetypeVersion" value="3.0.1" />
+                <entry key="artifactId" value="TDD" />
+                <entry key="groupId" value="ec.edu.epn" />
+                <entry key="interactiveMode" value="false" />
+                <entry key="version" value="1.0-SNAPSHOT" />
+              </map>
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="C:\Users\HOME\AppData\Local\Temp\archetypetmp" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655837947480</updated>
     </task>
+    <task id="LOCAL-00001" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
+      <created>1655840114544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655840114544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
   </component>
 </project>
