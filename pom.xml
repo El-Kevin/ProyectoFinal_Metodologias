@@ -22,7 +22,11 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/json.jar</systemPath>
         </dependency>
-
+        <dependency>
+            <groupId>net.sf.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>2.3</version>
+        </dependency>
 
         <dependency>
 

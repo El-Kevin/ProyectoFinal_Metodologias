@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Iteration 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/CSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/json-20211205 (1).jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,20 @@
       <recent name="ec.edu.epn.Facade" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok">
+  <component name="RunManager" selected="Application.CSV">
+    <configuration name="CSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.CSV" />
+      <module name="ProyectoFinal_Metodologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoFinal_Metodologias" />
       <extension name="coverage">
@@ -175,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CSV" />
         <item itemvalue="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
         <item itemvalue="JUnit.AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" />
       </list>
@@ -224,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655920658443</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Iteration 1">
+      <created>1655921142689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655921142689</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
