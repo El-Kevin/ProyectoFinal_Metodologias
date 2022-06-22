@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Iteration 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/json-20211205 (1).jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/json.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "/home/noobgrammer/Documents/BI/json-20211205.jar",
+    "last_opened_file_path": "/home/noobgrammer/IdeaProjects/ProyectoFinal_Metodologias/ProyectoFinal_Metodologias/src/main/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -63,6 +63,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -200,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655859210448</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Iteration 1">
+      <created>1655919917032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655919917032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Iteration 1">
+      <created>1655920639839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655920639839</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Iteration 1">
+      <created>1655920658443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655920658443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
+    <MESSAGE value="Iteration 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iteration 1" />
   </component>
 </project>
