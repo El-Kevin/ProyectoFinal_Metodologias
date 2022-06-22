@@ -16,7 +16,7 @@ public class CLITest {
             CLI cli = new CLI();
             //Paciente p = new Paciente("1752331700", "Kevin", "Toasa", "Caupicho", "Terapia", "Rammor123");
             Paciente p2 = new Paciente("0707079653", "Anthony", "Chamba", "La Ferroviaria", "DOLOR ESPALDA", "2020");
-            assertTrue(cli.autenticarPacienteMedianteCedula(p2.getNumeroCedula(), p2.getClave()));
+            assertTrue(cli.autenticarPacienteMedianteCedula());
 
         }
 }
