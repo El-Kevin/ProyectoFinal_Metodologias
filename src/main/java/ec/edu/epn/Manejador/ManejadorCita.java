@@ -126,6 +126,34 @@ public class ManejadorCita {
 
 
     public void eliminarCita(String numeroDeCedula) throws FileNotFoundException, IOException {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<CitaMedica> citasNoDisponible = new ArrayList<CitaMedica>();
+        ArrayList<CitaMedica> citas = leerArchivoCitas();
+
+        CitaAgendada cd = new CitaAgendada();
+        citasNoDisponible = cd.visualizarCitasAgendadas(citas, numeroDeCedula);
+
+        System.out.println("Ingrese el numero de la cita que desea cancelar:");
+        int citaSeleccionada = sc.nextInt();
+        int index = citaSeleccionada;
+        int i = 0;
+        //Reempazando las partes de la expresion if en variables separadas
+        final String auxCodCita = citasNoDisponible.get(index).getCodigoCita();
+        for (CitaMedica cita : citas) {
+
+            //Reempazando las partes de la expresion if en variables separadas
+            final String codCita = cita.getCodigoCita();
+
+            //Creando condicional más sencilla de entender
+            if (auxCodCita.equals(codCita)) {
+                citas.get(i).setDisponibilidad(true);
+                citas.get(i).setNumeroDeCedula("000000000");
+                mostrarCita(citas.get(i));
+                System.out.println("Se ha cancelado exitosamente");
+            }
+            i++;
+        }
+        sobreescribirArchivo(citas);
     }
 
 }

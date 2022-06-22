@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="añadir los archivos json">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Citas/CitaDisponibleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Citas/CitaDisponible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Citas/CitaDisponible.java" afterDir="false" />
+    <list default="true" id="b175a79a-aa7e-4e2d-82fe-221c9e97a25c" name="Changes" comment="añadir los archivos json">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/dataUsuario.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/AdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/CLITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/IiniciarSesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorCita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorCita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dataCita.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataCita.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/dev" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "C:/Users/Public/Documents/ProyectoFinal_Metodologias/src/main/resources/json-20211205 (1).jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/ProyectoFinal_Metodologias/src/main/resources/json-20211205 (1).jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,7 +69,7 @@
       <recent name="ec.edu.epn.Facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Facade.Main" />
       <module name="ProyectoFinal_Metodologias" />
@@ -69,6 +79,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal_Metodologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.anthony" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.anthony.CLITest" />
+      <option name="METHOD_NAME" value="givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +214,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CitaDisponibleTest" />
         <item itemvalue="JUnit.CitaDisponibleTest.given_one_appointments_when_calculatedaysrest_then_ok" />
@@ -236,5 +263,16 @@
     <MESSAGE value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
     <MESSAGE value="añadir los archivos json" />
     <option name="LAST_COMMIT_MESSAGE" value="añadir los archivos json" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/CLITest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,6 +6,7 @@ public class Paciente {
     private String apellido;
     private String aectorDeVivienda;
     private String motivoCita;
+
     private String clave;
 
     public Paciente() {
