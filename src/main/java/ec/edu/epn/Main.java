@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Alucination");
         String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
         ManejadorUsuario manejadorUsuario = new ManejadorUsuario(pathFile);
+
         try {
             System.out.println(manejadorUsuario.leerArchivoUsuarios().get(0).getNumeroCedula());
         } catch (Exception e){
