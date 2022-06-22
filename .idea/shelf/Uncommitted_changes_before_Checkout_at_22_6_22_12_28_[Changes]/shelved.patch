@@ -1,0 +1,181 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"cc9d9da8-037d-4fbb-b25e-34b59592af6b\" name=\"Changes\" comment=\"Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos\">\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit4 Test Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2AtnqrXtLlPRk0CnkGwz3SKl7rc\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit4\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4\": \"\",\n    \"last_opened_file_path\": \"/home/noobgrammer/Documents/BI/json-20211205.jar\",\n    \"project.structure.last.edited\": \"Libraries\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"vcs.Git\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"ec.edu.epn.anthony\" />\n      <recent name=\"ec.edu.epn.Facade\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok\">\n    <configuration name=\"AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ProyectoFinal_Metodologias\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ec.edu.epn.anthony.IiniciarSesion\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"ec.edu.epn.anthony\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ec.edu.epn.anthony.AdminTest\" />\n      <option name=\"METHOD_NAME\" value=\"givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ProyectoFinal_Metodologias\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ec.edu.epn.anthony.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"ec.edu.epn.anthony\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ec.edu.epn.anthony.CLITest\" />\n      <option name=\"METHOD_NAME\" value=\"givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\" [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate]\" type=\"MavenRunConfiguration\" factoryName=\"Maven\">\n      <MavenSettings>\n        <option name=\"myGeneralSettings\">\n          <MavenGeneralSettings>\n            <option name=\"alwaysUpdateSnapshots\" value=\"false\" />\n            <option name=\"checksumPolicy\" value=\"NOT_SET\" />\n            <option name=\"failureBehavior\" value=\"NOT_SET\" />\n            <option name=\"localRepository\" value=\"\" />\n            <option name=\"mavenHome\" value=\"Bundled (Maven 3)\" />\n            <option name=\"nonRecursive\" value=\"false\" />\n            <option name=\"outputLevel\" value=\"INFO\" />\n            <option name=\"pluginUpdatePolicy\" value=\"DEFAULT\" />\n            <option name=\"printErrorStackTraces\" value=\"false\" />\n            <option name=\"showDialogWithAdvancedSettings\" value=\"false\" />\n            <option name=\"threads\" />\n            <option name=\"useMavenConfig\" value=\"false\" />\n            <option name=\"usePluginRegistry\" value=\"false\" />\n            <option name=\"userSettingsFile\" value=\"\" />\n            <option name=\"workOffline\" value=\"false\" />\n          </MavenGeneralSettings>\n        </option>\n        <option name=\"myRunnerSettings\">\n          <MavenRunnerSettings>\n            <option name=\"delegateBuildToMaven\" value=\"false\" />\n            <option name=\"environmentProperties\">\n              <map />\n            </option>\n            <option name=\"jreName\" value=\"#USE_PROJECT_JDK\" />\n            <option name=\"mavenProperties\">\n              <map>\n                <entry key=\"archetypeArtifactId\" value=\"bamboo-plugin-archetype\" />\n                <entry key=\"archetypeGroupId\" value=\"com.atlassian.maven.archetypes\" />\n                <entry key=\"archetypeVersion\" value=\"3.0.1\" />\n                <entry key=\"artifactId\" value=\"TDD\" />\n                <entry key=\"groupId\" value=\"ec.edu.epn\" />\n                <entry key=\"interactiveMode\" value=\"false\" />\n                <entry key=\"version\" value=\"1.0-SNAPSHOT\" />\n              </map>\n            </option>\n            <option name=\"passParentEnv\" value=\"true\" />\n            <option name=\"runMavenInBackground\" value=\"true\" />\n            <option name=\"skipTests\" value=\"false\" />\n            <option name=\"vmOptions\" value=\"\" />\n          </MavenRunnerSettings>\n        </option>\n        <option name=\"myRunnerParameters\">\n          <MavenRunnerParameters>\n            <option name=\"profiles\">\n              <set />\n            </option>\n            <option name=\"goals\">\n              <list>\n                <option value=\"org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate\" />\n              </list>\n            </option>\n            <option name=\"pomFileName\" />\n            <option name=\"profilesMap\">\n              <map />\n            </option>\n            <option name=\"resolveToWorkspace\" value=\"false\" />\n            <option name=\"workingDirPath\" value=\"C:\\Users\\HOME\\AppData\\Local\\Temp\\archetypetmp\" />\n          </MavenRunnerParameters>\n        </option>\n      </MavenSettings>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok\" />\n        <item itemvalue=\"JUnit.AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"cc9d9da8-037d-4fbb-b25e-34b59592af6b\" name=\"Changes\" comment=\"\" />\n      <created>1655837947480</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1655837947480</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos\">\n      <created>1655840114544</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655840114544</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos\">\n      <created>1655859210447</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655859210448</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1705d10c3612f1a562e116bf1fd8a03f07b764f3)
++++ b/.idea/workspace.xml	(date 1655917781190)
+@@ -4,10 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++    <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Testing if it really reads json file">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -47,31 +45,47 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+-    "last_opened_file_path": "/home/noobgrammer/Documents/BI/json-20211205.jar",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "vcs.Git"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/noobgrammer/Documents/BI/json-20211205.jar&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.14453125&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.11441647&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CreateTestDialog.Recents.Supers">
+       <recent name="" />
++    </key>
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="ec.edu.epn" />
+     </key>
+     <key name="CreateTestDialog.RecentsKey">
+       <recent name="ec.edu.epn.anthony" />
+       <recent name="ec.edu.epn.Facade" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok">
++  <component name="RunManager" selected="Application.Main">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
++      <module name="ProyectoFinal_Metodologias" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="ec.edu.epn.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ProyectoFinal_Metodologias" />
+       <extension name="coverage">
+@@ -92,7 +106,7 @@
+       <module name="ProyectoFinal_Metodologias" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ec.edu.epn.anthony.*" />
++          <option name="PATTERN" value="ec.edu.epn.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -172,6 +186,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main" />
+         <item itemvalue="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
+         <item itemvalue="JUnit.AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" />
+       </list>
+@@ -200,7 +215,63 @@
+       <option name="project" value="LOCAL" />
+       <updated>1655859210448</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
++      <created>1655869497476</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1655869497476</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
++      <created>1655871427288</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1655871427288</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
++      <created>1655871922405</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1655871922405</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
++      <created>1655912637509</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1655912637509</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
++      <created>1655913398162</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1655913398162</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Testing if it really reads json file">
++      <created>1655916211342</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1655916211342</updated>
++    </task>
++    <task id="LOCAL-00009" summary="Testing if it really reads json file">
++      <created>1655916381792</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1655916381792</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Testing if it really reads json file">
++      <created>1655917210151</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1655917210151</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -217,6 +288,11 @@
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
++    <MESSAGE value="Testing if it really reads json file" />
++    <option name="LAST_COMMIT_MESSAGE" value="Testing if it really reads json file" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+ </project>
+\ No newline at end of file
