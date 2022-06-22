@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        System.out.println("Recemos que valga");
         ManejadorCita m = new ManejadorCita();
         m.reservarCita("1752331700");
-
     }
 }

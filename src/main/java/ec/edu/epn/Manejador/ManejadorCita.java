@@ -94,7 +94,7 @@ public class ManejadorCita {
 
 
     public void reservarCita(String numeroDeCedula) throws FileNotFoundException, IOException {
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         ArrayList<CitaMedica> citas = leerArchivoCitas();
         ArrayList<CitaMedica> citasDisponible = new ArrayList<CitaMedica>();
 
@@ -102,7 +102,7 @@ public class ManejadorCita {
         citasDisponible = cd.mostrarCitasDisponibles(citas);
 
         System.out.println("Ingrese el numero de la cita que desea agendar:");
-        int citaSeleccionada = sc.nextInt();
+        int citaSeleccionada = 0;
         int index = citaSeleccionada;
         int i = 0;
         CitaAgendada ca = new CitaAgendada();
