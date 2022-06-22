@@ -20,7 +20,7 @@
             <artifactId>json</artifactId>
             <version>20180130</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/json.jar</systemPath>
+            <systemPath>/var/jenkins_home/workspace/HolaAnthony/src/main/resources/json.jar</systemPath>
         </dependency>
 
 
