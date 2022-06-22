@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9d9da8-037d-4fbb-b25e-34b59592af6b" name="Changes" comment="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/dataUsuario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/AdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/CLITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/IiniciarSesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655840114544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos">
+      <created>1655859210447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655859210448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
