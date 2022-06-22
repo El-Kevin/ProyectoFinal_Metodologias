@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Hola pelotudos");
         System.out.println("Alucination");
         String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
+        System.out.println(pathFile);
         ManejadorUsuario manejadorUsuario = new ManejadorUsuario(pathFile);
 
         try {
