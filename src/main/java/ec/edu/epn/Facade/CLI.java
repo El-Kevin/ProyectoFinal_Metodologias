@@ -15,13 +15,13 @@ public class CLI {
     private ManejadorUsuario mu = new ManejadorUsuario(System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json");
 ;
     public boolean autenticarPacienteMedianteCedula() throws FileNotFoundException {
-        Scanner sc = new Scanner(System.in);
-        String numeroCedula;
-        String password;
+
+        String numeroCedula = "0707079653";
+        String password = "2020";
         System.out.println("Ingrese su numero de cedula");
-        numeroCedula = sc.nextLine();
+        System.out.println(numeroCedula);
         System.out.println("Ingrese su contrasenia");
-        password = sc.nextLine();
+        System.out.println("2020");
         ArrayList<Paciente> pacientes = mu.leerArchivoUsuarios();
         for (Paciente p : pacientes
              ) {
