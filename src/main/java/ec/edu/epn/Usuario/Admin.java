@@ -1,9 +1,12 @@
 package ec.edu.epn.Usuario;
 
+import ec.edu.epn.Citas.CitaMedica;
+import ec.edu.epn.Manejador.ManejadorCita;
 import ec.edu.epn.Manejador.ManejadorUsuario;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Admin {
     private String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
@@ -46,6 +49,14 @@ public class Admin {
 
 
     };
+
+    public  void agregarRegistro(CitaMedica cita) throws IOException {
+        ManejadorCita registro = new ManejadorCita(pathFile);
+        ArrayList<CitaMedica> listaCitas = new ArrayList<CitaMedica>();
+        listaCitas = registro.leerArchivoCitas();
+        listaCitas.add(cita);
+        registro.sobreescribirArchivo(listaCitas);
+    }
 
     public boolean getHaIniciadoSesion() {
         return haIniciadoSesion;

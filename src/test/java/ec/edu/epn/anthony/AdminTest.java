@@ -11,7 +11,7 @@ import java.io.IOException;
 import static org.junit.Assert.*;
 
 public class AdminTest {
-    @Test
+   /* @Test
     public void givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser() throws IOException, FileNotFoundException {
         IiniciarSesion is = Mockito.mock(IiniciarSesion.class);
         Paciente p = new Paciente("1752331700", "Kevin", "Toasa", "Caupicho", "Terapia", "Rammor123");
@@ -23,5 +23,5 @@ public class AdminTest {
 
         assertTrue(a.registrarUsuario(p));
 
-    }
+    }*/
 }

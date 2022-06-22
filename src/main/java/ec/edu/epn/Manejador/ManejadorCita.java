@@ -18,6 +18,10 @@ public class ManejadorCita {
 
     private String pathCita = System.getProperty("user.dir") + "\\src\\main\\resources\\dataCita.json";
 
+    public ManejadorCita(String pathCitas) {
+        this.pathCitas = pathCitas;
+    }
+    private String pathCitas;
 
 
     public ArrayList<CitaMedica> leerArchivoCitas() throws FileNotFoundException {

@@ -35,9 +35,9 @@ public class CitaDisponibleTest {
 
     @Test
     public void given_one_appointments_when_calculatedaysrest_then_ok(){
-        ManejadorCita citaDisponible = new ManejadorCita();
+        ManejadorCita citaDisponible = new ManejadorCita(System.getProperty("user.dir") + "\\src\\main\\resources\\dataCita.json");
         charge_log();
-        int expect = 6;
+        int expect = 5;
         int actual = citaDisponible.calcularDiasFaltantes(listacita.get(0));
         assertEquals(expect,actual);
     }
