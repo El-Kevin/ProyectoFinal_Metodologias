@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b175a79a-aa7e-4e2d-82fe-221c9e97a25c" name="Changes" comment="añadir los archivos json">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/dataUsuario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/AdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/CLITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/IiniciarSesion.java" afterDir="false" />
+    <list default="true" id="b175a79a-aa7e-4e2d-82fe-221c9e97a25c" name="Changes" comment="merge entre la rama de Kevin y anthony">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Facade/CLI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorCita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorCita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Manejador/ManejadorUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataUsuario.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Usuario/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,7 @@
       <recent name="ec.edu.epn.Facade" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok">
+  <component name="RunManager" selected="JUnit.AdminTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Facade.Main" />
       <module name="ProyectoFinal_Metodologias" />
@@ -79,6 +71,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal_Metodologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.anthony" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.anthony.AdminTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal_Metodologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.anthony" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.anthony.AdminTest" />
+      <option name="METHOD_NAME" value="givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CLITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoFinal_Metodologias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.anthony" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.anthony.CLITest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,53 +132,6 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.anthony" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.anthony.CLITest" />
       <option name="METHOD_NAME" value="givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CitaDisponibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal_Metodologias" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.Citas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.Citas" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Citas.CitaDisponibleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CitaDisponibleTest.given_one_appointments_when_calculatedaysrest_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal_Metodologias" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.Citas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.Citas" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Citas.CitaDisponibleTest" />
-      <option name="METHOD_NAME" value="given_one_appointments_when_calculatedaysrest_then_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CitaDisponibleTest.given_three_appointments_when_search_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProyectoFinal_Metodologias" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.Citas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.Citas" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Citas.CitaDisponibleTest" />
-      <option name="METHOD_NAME" value="given_three_appointments_when_search_then_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
+        <item itemvalue="JUnit.AdminTest" />
+        <item itemvalue="JUnit.CLITest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CitaDisponibleTest" />
-        <item itemvalue="JUnit.CitaDisponibleTest.given_one_appointments_when_calculatedaysrest_then_ok" />
-        <item itemvalue="JUnit.CitaDisponibleTest.given_three_appointments_when_search_then_ok" />
+        <item itemvalue="JUnit.CLITest.givenNumeroCedula_Contrasenia_correctos_whenIniciaSesion_then_ok" />
+        <item itemvalue="JUnit.AdminTest.givenAdminAccountNewUser_whenAddNewUser_thenRegisterUser" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655841550977</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merge entre la rama de Kevin y anthony">
+      <created>1655863728268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655863728268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,17 +260,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Craar un repositorio para el proyecto con Maven y las clases con sus respectivos metodos(vacios) y atributos" />
     <MESSAGE value="añadir los archivos json" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadir los archivos json" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ec/edu/epn/anthony/CLITest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="merge entre la rama de Kevin y anthony" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge entre la rama de Kevin y anthony" />
   </component>
 </project>
