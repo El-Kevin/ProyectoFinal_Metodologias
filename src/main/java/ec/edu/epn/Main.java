@@ -13,14 +13,14 @@ public class Main {
         System.out.println(pathFile);
         ManejadorUsuario manejadorUsuario = new ManejadorUsuario(pathFile);
 //
-        try {
-            System.out.println(manejadorUsuario.leerArchivoUsuarios().get(0).getNumeroCedula());
-        } catch (Exception e) {
-            e.printStackTrace();
+//        try {
+//            System.out.println(manejadorUsuario.leerArchivoUsuarios().get(0).getNumeroCedula());
+//        } catch (Exception e) {
+//            e.printStackTrace();
 //        }
-//        System.out.println("Ingrese algo");
-//        String letter = sc.nextLine();
-//        System.out.println(letter);
-        }
+        System.out.println("Ingrese algo");
+        String letter = sc.nextLine();
+        System.out.println(letter);
+
     }
 }
