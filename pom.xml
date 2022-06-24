@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -20,7 +20,7 @@
             <artifactId>json</artifactId>
             <version>20180130</version>
             <scope>system</scope>
-            <systemPath>/var/jenkins_home/workspace/HolaAnthony/src/main/resources/json.jar</systemPath>
+            <systemPath>/var/lib/jenkins/workspace/Test1/src/main/resources/json.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>net.sf.opencsv</groupId>
