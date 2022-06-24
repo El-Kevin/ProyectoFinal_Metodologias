@@ -16,21 +16,21 @@ public class Main {
         System.out.println(pathFile);
         ManejadorUsuario manejadorUsuario = new ManejadorUsuario(pathFile);
 //
-//        try {
-//            System.out.println(manejadorUsuario.leerArchivoUsuarios().get(0).getNumeroCedula());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
         try {
-            System.out.print("Enter Username: ");
-            InputStreamReader streamReader = new InputStreamReader(System.in);
-            BufferedReader bufferedReader = new BufferedReader(streamReader);
-            String username = bufferedReader.readLine();
-            System.out.println("Your username is : " + username );
-
-        } catch (IOException e) {
+            System.out.println(manejadorUsuario.leerArchivoUsuarios().get(0).getNumeroCedula());
+        } catch (Exception e) {
             e.printStackTrace();
         }
+//        try {
+//            System.out.print("Enter Username: ");
+//            InputStreamReader streamReader = new InputStreamReader(System.in);
+//            BufferedReader bufferedReader = new BufferedReader(streamReader);
+//            String username = bufferedReader.readLine();
+//            System.out.println("Your username is : " + username );
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
     }
 }
