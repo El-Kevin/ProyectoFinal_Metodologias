@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Admin {
-    private String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
+    private String pathFile = "/var/lib/jenkins/workspace/Test1/src/main/resources/dataUsuario.json";
     private boolean haIniciadoSesion;
     private String id;
     private String contrasenia;
