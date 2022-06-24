@@ -1,21 +1,24 @@
 package ec.edu.epn.Citas;
 
 public class CitaMedica {
-    private String especialidad;
-    private String fechaEmision;
-    private String nombreMedico;
-    private String fechaCita;
-    private String codigoCita;
+
+    private String especialidad, fechaEmision, nombreMedico, fechaCita, codigoCita, numeroDeCedula;
     private boolean disponibilidad;
-    private String numeroDeCedula;
-    public CitaMedica(String numeroDeCedula, String especialidad, String fechaEmision, String nombreMedico, String fechaCita, String codigoCita, boolean disponibilidad) {
+
+    public CitaMedica(String especialidad, String fechaEmision, String nombreMedico, String fechaCita, String codigoCita,
+                      String numeroDeCedula, boolean disponibilidad) {
         this.especialidad = especialidad;
         this.fechaEmision = fechaEmision;
         this.nombreMedico = nombreMedico;
         this.fechaCita = fechaCita;
         this.codigoCita = codigoCita;
-        this.disponibilidad = disponibilidad;
         this.numeroDeCedula = numeroDeCedula;
+        this.disponibilidad = disponibilidad;
+    }
+
+    public String escribirCita(){
+        return this.especialidad +","+this.fechaCita+","+this.nombreMedico+","+this.fechaCita+","+
+                this.codigoCita+","+this.nombreMedico+","+this.disponibilidad;
     }
     public String getEspecialidad() {
         return especialidad;

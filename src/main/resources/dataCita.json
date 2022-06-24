@@ -1,10 +1,1 @@
-[{"NombreMedico":"Esteban Cuji","FechaCita":" 21/05/2022","FechaEmision":" 15/05/2022","Especialidad":"DERMATOLOGIA","NumeroDeCedula":"000000000","CodigoCita":"CIT132","Disponibilidad":false},
-  {"NombreMedico":"Jacob Caicedo","FechaCita":" 20/05/2022","FechaEmision":" 15/05/2022","Especialidad":"OBSTETRICIA","NumeroDeCedula":"000000000","CodigoCita":"CIT136","Disponibilidad":true},
-  {"NombreMedico":"Esteban Cuji","FechaCita":" 21/05/2022","FechaEmision":" 15/05/2022","Especialidad":"DERMATOLOGIA","NumeroDeCedula":"000000000","CodigoCita":"CIT132","Disponibilidad":true},
-  {"NombreMedico":"Luis Bustamante","FechaCita":" 27/05/2022","FechaEmision":" 15/05/2022","Especialidad":"GINECOLOGIA","NumeroDeCedula":"5879042162","CodigoCita":"CIT133","Disponibilidad":false},
-  {"NombreMedico":"Samuel Encalada","FechaCita":" 28/05/2022","FechaEmision":" 15/05/2022","Especialidad":"OFTALMOLOGIA","NumeroDeCedula":"5879042162","CodigoCita":"CIT135","Disponibilidad":false},
-  {"NombreMedico":"Julio Cesar","FechaCita":"18/05/2022","FechaEmision":"15/05/2022","Especialidad":"FISIOLOGIA","NumeroDeCedula":"1715487921","CodigoCita":"CIT126","Disponibilidad":true},
-  {"NombreMedico":"Milton Blacio","FechaCita":" 26/05/2022","FechaEmision":" 15/05/2022","Especialidad":"CARDIOLOGIA","NumeroDeCedula":"00000000","CodigoCita":"CIT130","Disponibilidad":true},
-  {"NombreMedico":"Jacob Caicedo","FechaCita":" 20/05/2022","FechaEmision":" 15/05/2022","Especialidad":"OBSTETRICIA","NumeroDeCedula":"0707079653","CodigoCita":"CIT136","Disponibilidad":false},
-  {"NombreMedico":"Patricio Macas","FechaCita":" 25/05/2022","FechaEmision":" 15/05/2022","Especialidad":"OFTALMOLOGIA","NumeroDeCedula":"5735914770","CodigoCita":"CIT129","Disponibilidad":false},
-  {"NombreMedico":"Karolina Saransig","FechaCita":" 21/05/2022","FechaEmision":" 15/05/2022","Especialidad":"HEPATOLOGIA","NumeroDeCedula":"000000000","CodigoCita":"CIT134","Disponibilidad":true}]
+[{"NombreMedico":"Anthony","FechaCita":"14/05/2022","FechaEmision":"14/06/2022","Especialidad":"asd","NumeroDeCedula":"1752331700","CodigoCita":"123","Disponibilidad":true},{"NombreMedico":"Anasdthony","FechaCita":"14/05/2022","FechaEmision":"14/06/2022","Especialidad":"ass","NumeroDeCedula":"1752331710","CodigoCita":"1234","Disponibilidad":false}]
