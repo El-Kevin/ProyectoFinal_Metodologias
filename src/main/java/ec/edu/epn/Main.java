@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         System.out.println("Hola pelotudos");
         System.out.println("Alucination");
         String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
@@ -18,9 +18,10 @@ public class Main {
 //        } catch (Exception e) {
 //            e.printStackTrace();
 //        }
-        System.out.println("Ingrese algo");
-        String letter = sc.nextLine();
-        System.out.println(letter);
+        String nombre;
+        System.out.print("Por favor, dime tu nombre: ");
+        nombre = System.console().readLine();
+        System.out.println("Hola " + nombre + ", ¡bienvenido a Java desde Cero!");
 
     }
 }
