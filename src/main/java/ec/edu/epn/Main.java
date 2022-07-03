@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) throws IOException, FileNotFoundException {
 
         System.out.println("***COMPILACIÓN ANTERIOR AL CAMBIO***");
-
+        System.out.println(System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json");
         CLI cli = new CLI();
         cli.autenticarPacienteMedianteCedula();
 
