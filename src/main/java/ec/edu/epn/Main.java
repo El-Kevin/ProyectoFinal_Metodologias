@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException, FileNotFoundException {
 
-        System.out.println("***COMPILACIÓN ANTERIOR AL CAMBIO***");
+        System.out.println("***COMPILACIÓN POSTERIOR AL CAMBIO***");
         System.out.println(System.getProperty("user.dir") + "/dataUsuario.json");
         CLI cli = new CLI();
         cli.autenticarPacienteMedianteCedula();
