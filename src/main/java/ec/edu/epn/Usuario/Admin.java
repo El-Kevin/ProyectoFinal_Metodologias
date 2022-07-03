@@ -6,11 +6,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Admin {
-    private String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
+    //private String pathFile = System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json";
     private boolean haIniciadoSesion;
     private String id;
     private String contrasenia;
-    private ManejadorUsuario manejadorUsuario = new ManejadorUsuario(pathFile);
+    private ManejadorUsuario manejadorUsuario = new ManejadorUsuario("/var/lib/jenkins/workspace/Proyecto1B/src/main/resources/dataUsuario.json");
 
 
     public String getId() {

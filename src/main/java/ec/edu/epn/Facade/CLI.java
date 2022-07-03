@@ -12,10 +12,11 @@ import java.util.Scanner;
 public class CLI {
     private boolean claveAutenticada;
     private CitaMedica citaMedica;
-    private ManejadorUsuario mu = new ManejadorUsuario(System.getProperty("user.dir") + "/dataUsuario.json");
+    private ManejadorUsuario mu = new ManejadorUsuario("/var/lib/jenkins/workspace/Proyecto1B/src/main/resources/dataUsuario.json");
 
     public boolean autenticarPacienteMedianteCedula() throws FileNotFoundException {
-
+        System.out.println("Inside autenticarPAciente");
+        System.out.println(System.getProperty("user.dir") + "/dataUsuario.json");
         String numeroCedula = "0707079653";
         String password = "2020";
         System.out.println("Ingrese su numero de cedula");
