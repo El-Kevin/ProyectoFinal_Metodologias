@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class CLI {
     private boolean claveAutenticada;
     private CitaMedica citaMedica;
-    private ManejadorUsuario mu = new ManejadorUsuario(System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json");
+    private ManejadorUsuario mu = new ManejadorUsuario(System.getProperty("user.dir") + "/dataUsuario.json");
 
     public boolean autenticarPacienteMedianteCedula() throws FileNotFoundException {
 
