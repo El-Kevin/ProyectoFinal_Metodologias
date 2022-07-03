@@ -13,7 +13,7 @@ public class CLI {
     private boolean claveAutenticada;
     private CitaMedica citaMedica;
     private ManejadorUsuario mu = new ManejadorUsuario(System.getProperty("user.dir") + "/src/main/resources/dataUsuario.json");
-;
+
     public boolean autenticarPacienteMedianteCedula() throws FileNotFoundException {
 
         String numeroCedula = "0707079653";
@@ -27,9 +27,11 @@ public class CLI {
              ) {
 
             if (p.getNumeroCedula().equals(numeroCedula) && p.getClave().equals(password)) {
+                System.out.println("El usuario se ha autenticado exitosamente");
                 return true;
             }
         }
+        System.out.println("No se ha podido autenticar el paciente");
         return false;
     }
 
