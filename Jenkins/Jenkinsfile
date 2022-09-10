@@ -12,12 +12,15 @@ pipeline {
   }
   stages {
 
- stage("paso 1"){
+ stage("Build and testing in maven"){
      
       steps {
           script {			
-           sh "echo 'hola xd'"
-           sh "ls"
+           sh "echo 'Examen de Construccion y evolucion'"
+           sh "cd /var/lib/jenkins/workspace/Proyecto1B/src/main/resources"
+           sh "ls -a"
+           sh "java -cp /var/lib/jenkins/workspace/Proyecto1B/target/Calculadora_GR4-1.0-SNAPSHOT.jar:/var/lib/jenkins/workspace/Proyecto1B/src/main/resources/json.jar ec.edu.epn.Main"
+           
         }
       }
     }
@@ -25,14 +28,14 @@ pipeline {
   post {
       always {          
           deleteDir()
-           sh "echo 'fase always'"
+           sh "echo 'El proyecto se ha ejecutado'"
       }
       success {
-            sh "echo 'fase success'"
+            sh "echo 'Ejecucion exitosa'"
         }
 
       failure {
-            sh "echo 'fase failure'"
+            sh "echo 'Fallo al ejecutar'"
       }
       
   }
